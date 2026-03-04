@@ -16,11 +16,11 @@ import dash
 from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
 
-from data.synthetic import generate_market_data
-from components.component_a import normalize_component_a
-from components.component_b import normalize_component_b
-from components.component_c import normalize_component_c
-from components.component_d import normalize_component_d
+from synthetic import generate_market_data
+from component_a import normalize_component_a
+from component_b import normalize_component_b
+from component_c import normalize_component_c
+from component_d import normalize_component_d
 from aggregator import compute_clock, ClockReading
 
 
